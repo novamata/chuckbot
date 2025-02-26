@@ -4,7 +4,7 @@ Ever wanted to have a bot that posts a random Chuck Norris quote to a Discord ch
 
 This is the perfect solution for you!
 
-Using AWS this can be run with little to no upkeep, utilizing services such as Lambda and CloudWatch.
+Using Terraform and AWS this can be run with little to no upkeep, utilizing services such as Lambda and CloudWatch.
 
 ## How to use
 

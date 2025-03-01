@@ -9,7 +9,7 @@ Using Terraform and AWS this can be run with little to no upkeep, utilizing serv
 ## How to use
 
 1. Clone the repository
-2. Create a terraform.tfvars file, fill it with your Discord and aws region values, then place it in the terraform directory using the example below
+2. Create a terraform.tfvars file, fill it with your Discord and AWS region values, then place it in the terraform directory using the example below
 3. Run `terraform init` in the terraform directory
 4. Run `terraform apply -var-file="terraform.tfvars"`
 5. Run `terraform destroy` when you're done using it 

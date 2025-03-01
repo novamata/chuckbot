@@ -25,6 +25,7 @@ Directory structure:
     └── main.tf
     └── variables.tf
     └── data.tf
+    └── terraform.tfvars
 ```
 
 terraform.tfvars file example

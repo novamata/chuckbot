@@ -9,7 +9,7 @@ Using Terraform and AWS this can be run with little to no upkeep, utilizing serv
 ## How to use
 
 1. Clone the repository
-2. Create a terraform.tfvars file and fill it with your Discord values, using the example below
+2. Create a terraform.tfvars file, fill it with your Discord and aws region values, then place it in the terraform directory using the example below
 3. Run `terraform init` in the terraform directory
 4. Run `terraform apply -var-file="terraform.tfvars"`
 5. Run `terraform destroy` when you're done using it 
@@ -27,10 +27,11 @@ Directory structure:
     └── data.tf
 ```
 
-terraform.tfvars file exmaple
+terraform.tfvars file example
 ```
 discord_token = ""
 discord_channel_id = ""
+region = ""
 ```
 
 ## Resources
